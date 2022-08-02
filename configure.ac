@@ -5,7 +5,7 @@ m4_define([mailtc_version],[1.4.3])
 
 m4_define([glib_required_version],[2.28.0])
 
-AC_INIT([mailtc_package],[mailtc_version],[dale@users.sf.net])
+AC_INIT([mailtc_package],[mailtc_version])
 
 AC_SUBST(ACLOCAL_AMFLAGS,"-I autotools")
 
