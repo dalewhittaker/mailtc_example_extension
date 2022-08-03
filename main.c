@@ -43,6 +43,11 @@ typedef struct
     MailtcExtensionClass parent_class;
 } MailtcExampleClass;
 
+typedef struct
+{
+    void *dummy;
+} MailtcExamplePrivate;
+
 MAILTC_DEFINE_EXTENSION (MailtcExample, mailtc_example)
 
 static void

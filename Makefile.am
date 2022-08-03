@@ -4,14 +4,12 @@ plugin_LTLIBRARIES = example.la
 
 AM_CPPFLAGS = \
 		-DG_DISABLE_SINGLE_INCLUDES \
-		-DG_DISABLE_DEPRECATED \
 		-DLIBDIR=\"$(plugindir)\"
 
 AM_CFLAGS = \
 		-Wall \
 		-Wextra \
-		-ansi \
-		-pedantic
+		-ansi
 
 INCLUDES = \
 		$(GLIB_CFLAGS)
